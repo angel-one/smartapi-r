@@ -1,0 +1,29 @@
+Package: smartapi
+Type: Package
+Title: SmartApi-R
+Version: 0.1.0
+Author: ab-smartapi <smartapi.sdk@gmail.com>
+Maintainer: ab-smartapi <smartapi.sdk@gmail.com>
+Description: Angel Broking openApi integration in R wrapper.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 2.10),
+    stats
+Imports:
+    base64,
+    rjson,
+    httr,
+    readr,
+    digest,
+    glue,
+    methods,
+    knitr,
+    qpdf,
+    xts
+Suggests:
+    RSelenium,
+    rmarkdown
+RoxygenNote: 7.1.1
+VignetteBuilder: knitr
