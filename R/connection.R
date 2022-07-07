@@ -414,7 +414,7 @@ generate_token<-function(object,refresh_token){
   r <- NULL
   tryCatch({
     r<-rest_api_call(object,"POST","api.token",method_params)
-    # message(r)
+    # message(r) //
     r<-httr::content(r)
 
   },error=function(e){
