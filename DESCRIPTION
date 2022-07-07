@@ -21,9 +21,10 @@ Imports:
     methods,
     knitr,
     qpdf,
-    xts
+    xts,
+    getip
 Suggests:
     RSelenium,
     rmarkdown
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.0
 VignetteBuilder: knitr
